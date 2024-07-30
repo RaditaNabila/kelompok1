@@ -55,4 +55,10 @@ int main() {
             cout << "Stasiun yang anda tuju tidak ada. Silakan coba lagi." << endl;
         }
     } while (!validStasiun(stasiunTujuan));
+
+    // perhitungan
+    int jumlahStasiun = abs(stasiunTujuan - stasiunAwal) + 1;
     
+    double biayaTiket = hitungBiayaTiket(jumlahStasiun);
+    
+    cout << "Biaya tiket dari stasiun " << stasiunAwal << " ke stasiun " << stasiunTujuan << " adalah: Rp" << biayaTiket << endl;
