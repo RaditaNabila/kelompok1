@@ -62,3 +62,9 @@ int main() {
     double biayaTiket = hitungBiayaTiket(jumlahStasiun);
     
     cout << "Biaya tiket dari stasiun " << stasiunAwal << " ke stasiun " << stasiunTujuan << " adalah: Rp" << biayaTiket << endl;
+
+    //finish
+    cout << "Terima kasih telah menggunakan layanan kami!" << endl;
+    
+    return 0;
+}
