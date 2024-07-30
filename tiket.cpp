@@ -12,3 +12,8 @@ double hitungBiayaTiket(int jumlahStasiun) {
     
     return totalBiaya;
 }
+
+// Fungsi memeriksa validitas stasiun
+bool validStasiun(int stasiun) {
+    return stasiun >= 1 && stasiun <= 5;
+}
