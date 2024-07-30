@@ -17,3 +17,10 @@ double hitungBiayaTiket(int jumlahStasiun) {
 bool validStasiun(int stasiun) {
     return stasiun >= 1 && stasiun <= 5;
 }
+
+int main() {
+    int stasiunAwal, stasiunTujuan;
+
+    //pesan selamat datang
+    cout << "=====================================" << endl;
+    cout << "Selamat Datang di stasiun Indonesia" << endl;
