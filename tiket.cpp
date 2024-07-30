@@ -35,3 +35,13 @@ int main() {
     cout << "5. Stasiun Kotabaru" << endl;
 
     cout << endl;
+
+    //perulangan stasiun awal
+    do {
+        cout << "Stasiun awal: ";
+        cin >> stasiunAwal;
+        
+        if (!validStasiun(stasiunAwal)) {
+            cout << "Stasiun yang anda pilih tidak ada. Silakan coba lagi." << endl;
+        }
+    } while (!validStasiun(stasiunAwal));
