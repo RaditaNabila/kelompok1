@@ -45,3 +45,14 @@ int main() {
             cout << "Stasiun yang anda pilih tidak ada. Silakan coba lagi." << endl;
         }
     } while (!validStasiun(stasiunAwal));
+
+    // perulangan stasiun tujuan
+    do {
+        cout << "Stasiun tujuan: ";
+        cin >> stasiunTujuan;
+        
+        if (!validStasiun(stasiunTujuan)) {
+            cout << "Stasiun yang anda tuju tidak ada. Silakan coba lagi." << endl;
+        }
+    } while (!validStasiun(stasiunTujuan));
+    
